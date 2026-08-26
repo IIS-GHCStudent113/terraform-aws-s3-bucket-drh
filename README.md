@@ -1,4 +1,4 @@
 module "s3_bucket" {
-  source      = "<YOUR_ORG>/s3-bucket-{your-initials}/aws"
+  source      = "lab/s3-bucket-drh/aws"
   bucket_name = "my-bucket"
 }
